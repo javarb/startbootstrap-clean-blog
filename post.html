@@ -75,42 +75,70 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+          <p>
+            In this Blog post I will include what I think is a very useful information for other people can get inspired, and be encouraged to complete this challenge created by <span style="color:#02a4fc;">@Nilay</span>.
+            <br /><br />
+            So, next you can see the requirements from this challenge from <span style="color:#02a4fc;">@Robert Pullan</span>:
+            <blockquote class="blockquote">
+              "- <i><b>First step:</b> Select your favorite lesson among all 24 lessons</i><br /><br />
+              - <i><b>Second step:</b> Write a blog about it explaining everything about it what they learned how they learned etc...</i>Second step: Write a blog about it explaining everything about it what they learned how they learned etc...<br /><br />
+              - <i><b>Third step:</b> Deploy that blog using aws (static/dynamic website). If you are unable to deploy on AWS, upload your blog on <a href="www.medium.com">www.medium.com</a> or on <a href="www.linkedin.com">www.linkedin.com</a></i><br /><br />
+              - <i><b>Fourth step:</b> Submit your details in the following form and announce it with a link to your blog in the #celebrate channel.</i><br /><br />
+            
+              Once you have completed the blog challenge don't forget to fill in <a href="https://forms.gle/ytC4n24hjezRiTMa6">this form</a> and you can also add the link to <a href="https://titan-programmer.github.io/blogs.html">this website</a> using <a href="https://github.com/Titan-Programmer/titan-programmer.github.io">this repository</a>"<br /><br />
+            </blockquote>
 
-          <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+            So! Do you want to know how to get your own blog over AWS S3?<br /><br />
+            Let's get started!
+          </p>
+          
+          <h2 class="section-heading">Phase 1 - Getting and preparing our Blog</h2>
+          <p>
+            I want to remember you this is all about an static Blog, so the first thing we are going to need is that Blog and its content, which we will host on a AWS S3 bucket.<br /><br />
+            
+            You could have several options to get this job done for our purposes. I will place here what I think are two main:<br /><br />
 
-          <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+            1. To use the best of your skills and programm this from scratch.<br /><br />
+            2. To use a template.<br /><br />
 
-          <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+            Of course, the first one is funny and you can learn a lot, but the second is also funny, and you have some of the work in advance, so you can concentrate in the content, and also to code a little 
+            in order to get your blog looking as you want.<br /><br />
+            
+            So, no more words to say I chose the second one.<br /><br />
+            
+            I got this excelent (in my oppinion) blog template called <a href="https://startbootstrap.com/themes/clean-blog/">Clean Blog</a> totally by free from <a href="https://startbootstrap.com/">https://startbootstrap.com/</a>.<br /><br />
+            
+            You have two options, you can download it or fork it from the <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog">Star Boostrap GitHub repo</a>. <br /><br />
+            
+            Well... I will you a third option: You can clone it or fork from <a href="https://github.com/javarb/startbootstrap-clean-blog">my own forked version of the Star Boostrap repo</a> which contains this pretty same blog content. 
+            I was working on the branch <span style="color:#02a4fc;">udacity-bertelsmann-scholarship-blog-challenge</span><br /><br />
+            
+            So, I will show you next how I cloned locally my forked repo and started to work on it:<br /><br />
+            
+            <code style="display:block;white-space:pre-wrap;background-color: black;color: white;">$ git clone git@github.com:javarb/startbootstrap-clean-blog.git</code><br /><br />
+            
+            $ git checkout -b udacity-bertelsmann-scholarship-blog-challenge
+            
+            
+            
+            Edit the blog site in your favorite editor. I advise Visual Studio Code
+            
+            
+            
+            To edit all content
+            
+            you also can fork my forked repo and work by your own ove it ;)
+            
+            
+            
+            
+            Go to unsplash and choose images do you like (remember to give credits!)
 
-          <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
 
-          <h2 class="section-heading">The Final Frontier</h2>
+          </p>
+          <h2 class="section-heading">Phase 2 - Launching on AWS S3</h2>       
+          <p></p>
 
-          <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-          <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-          <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-          <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-          <h2 class="section-heading">Reaching for the Stars</h2>
-
-          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-          <a href="#">
-            <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-          </a>
-          <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-          <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-          <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-          <p>Placeholder text by
-            <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
-            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
         </div>
       </div>
     </div>
