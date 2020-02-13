@@ -1,3 +1,13 @@
+# NOTE
+
+This is a forked repository that intends to give a starting point to those who want to get their own blog for the Blog Challenge in the of the [Udacity's Bertelsmann Technology Scholarship Cloud Track Challenge Course](https://sites.google.com/udacity.com/bertelsmann-challenge).
+
+Bests!
+
+Javier Arboleda.
+
+---------------
+
 # [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)
 
 [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
